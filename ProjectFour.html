@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--
+      ProjectFour.html
+      A simple show for an editable Library
+      Updated November 2021, Maria DeCesare
+  -->
+
+  <meta charset="utf-8" />
+
+  <!--link in css stylesheet-->
+  <link href="ProjectFour.css" rel="stylesheet">
+
+  <!--link in js document-->
+  <script src="ProjectFour.js" defer></script>
+
+  <!--link in jquert-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <title>Library</title>
+
+</head>
+
+<body id="body">
+
+    <!--Make a header for at the top of the page-->
+    <header class="header">Library</header>
+
+    <!--Put content in grid container-->
+    <div class="grid">
+
+      <nav class="nav">
+      <!-- Start with nothing here,
+           a list of book names will be created -->
+      </nav>
+      <main class="main">
+        <!--Edit and add buttons-->
+        <button type="button" id="editbutton">Edit</button>
+        <button type="button" id="addbutton">Add</button>
+        <button type="button" id="deletebutton">Delete</button>
+        <!--List of book attributes-->
+        <p>
+          <label for="bookTitle">Title:</label>
+          <input type="text" id="bookTitle" name="bookTitle" readonly>
+        </p>
+        <p>
+          <label for="bookAuthor">Author:</label>
+          <input type="text" id="bookAuthor" name="bookAuthor" readonly>
+        </p>
+        <p>
+          <label for="bookCopyright">Copy right date:</label>
+          <input type="text" id="bookCopyright" name="bookCopyright" readonly>
+        </p>
+        <p>
+          <label for="bookPages">Pages:</label>
+          <input type="text" id="bookPages" name="bookPages" readonly>
+        </p>
+        <p>
+          <label for="bookCover">Cover:</label>
+          <span id = "information"> </span>
+          <br>
+          <img id="bookCover" src="">
+        </p>
+      </main>
+    </div>
+</body>
+</html>

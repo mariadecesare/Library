@@ -1,0 +1,56 @@
+/*ProjectFour.css
+Stylesheet for editable openlibrary
+Updated November 2021, Maria DeCesare*/
+
+/*Create CSS rule for the body to change the background color*/
+#body{
+  background-color: purple;
+}
+
+/*Create CSS rule for element of class header to style it's content*/
+.header{
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*Create CSS rule for element of class grid to have it's content displayed in a grid*/
+.grid{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 700px;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+/*Create CSS rule for element of class nav to style it's content*/
+.nav{
+  font-family: fantasy;
+  font-size: 25px;
+  background: rgb(200,200,200);
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/*Create CSS rule for element of class main to style it's content*/
+.main {
+  text-align: left;
+  font-family: fantasy;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background: rgb(200,200,200);
+}
+
+/*Create CSS rule the buttons and information span*/
+#editbutton {
+  font-size: 15px;
+}
+#addbutton {
+  font-size: 15px;
+}
+#information {
+  font-size: 1px;
+  color: rgb(200,200,200);
+}
